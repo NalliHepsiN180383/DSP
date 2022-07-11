@@ -100,19 +100,19 @@ EXPRESSIONS:
 * An expression is a combination of operators and operands that is interpreted to produce some other value.
 
  We have many different types of expressions in Python.
- 1. Constant Expressions: These are the expressions that have constant values only.
-Example:
 # Constant Expressions
+ 1. Constant Expressions: These are the expressions that have constant values only.
+ Example:
 x = 15 + 1.3
 print(x)
-Output:
+* Output:
 16.3
 
-2. Arithmetic Expressions:
-* An arithmetic expression is a combination of numeric values, operators, and sometimes parenthesis. The result of this type of expression is also a numeric value. The operators used in these expressions are arithmetic operators like addition, subtraction, etc.
+# Arithmetic Expressions
+2. Arthmetic expressions: An arithmetic expression is a combination of numeric values, operators, and sometimes parenthesis. The result of this type of expression is also a numeric value. The operators used in these expressions are arithmetic operators like addition, subtraction, etc.
 *  Here are some arithmetic operators in Python:
 *  Example:
-# Arithmetic Expressions
+
 * x = 40
 * y = 12
   
