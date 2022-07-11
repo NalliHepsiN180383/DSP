@@ -70,7 +70,7 @@ In Python, the data type is set when you assign a value to a variable:
 * x = ["apple", "banana", "cherry"]	                                    list	
 * x = ("apple", "banana", "cherry")                                    	tuple	
 * x = range(6)	                                                        range	
-* x = {"name" : "John", "age" : 36}                                    	dict	
+* x = {"name" : "John", "age" : 36}                                     	dict	
 * x = {"apple", "banana", "cherry"}                                    	set	
 * x = frozenset({"apple", "banana", "cherry"})                        	frozenset	
 * x = True	                                                            bool	
@@ -80,5 +80,53 @@ In Python, the data type is set when you assign a value to a variable:
 * x = None                                                            	NoneType
 
 
+EXPRESSIONS AND VARIABLES:
+----------------------------
 
+Variables:
+* Variables are containers for storing data values.
 
+Creating Variables:
+* Python has no command for declaring a variable.
+* A variable is created the moment you first assign a value to it.
+
+Example:
+* x = 5
+* y ="John"
+* print(x)
+* print(y)
+
+EXPRESSIONS:
+* An expression is a combination of operators and operands that is interpreted to produce some other value.
+
+ We have many different types of expressions in Python.
+ 1. Constant Expressions: These are the expressions that have constant values only.
+Example:
+# Constant Expressions
+x = 15 + 1.3
+print(x)
+Output:
+16.3
+
+2. Arithmetic Expressions:
+* An arithmetic expression is a combination of numeric values, operators, and sometimes parenthesis. The result of this type of expression is also a numeric value. The operators used in these expressions are arithmetic operators like addition, subtraction, etc.
+*  Here are some arithmetic operators in Python:
+*  Example:
+# Arithmetic Expressions
+* x = 40
+* y = 12
+  
+* add = x + y
+* sub = x - y
+* pro = x * y
+* div = x / y
+  
+* print(add)
+* print(sub)
+* print(pro)
+* print(div)
+Output:
+52
+28
+480
+3.3333333333333335
